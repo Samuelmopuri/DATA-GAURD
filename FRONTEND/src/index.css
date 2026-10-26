@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@layer base {
+  * {
+    border-color: rgb(30 41 59);
+  }
+  body {
+    background-color: #020617;
+    color: #f1f5f9;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom scrollbars for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
